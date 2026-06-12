@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Status Board</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <div class="controls">
+        <button id="showPresent">Show Present</button>
+        <button id="showAbsent">Show Absent</button>
+        <button id="showPassed">Show Passed</button>
+        <button id="showFailed">Show Failed</button>
+        <input type="text" id="searchInput" placeholder="Search">
+        <button id="searchBtn">Search</button>
+    </div>
+     <table id="myTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>G1</th>
+        <th>G2</th>
+        <th>G3</th>
+        <th>Average</th>
+        <th>Remarks</th>
+      </tr>
+    </thead>
+    <tbody id="table-body">
+    </tbody>
+  </table>
+  <script src="./js/script.js"></script>
+</body>
+</html>
